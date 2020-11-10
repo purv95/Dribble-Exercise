@@ -23,14 +23,9 @@ header {
   cursor: pointer;
 }
 
-.container_img {
-  overflow: hidden;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+.container_img img {
+  height: 600px;
+  width: 900px;
   -webkit-clip-path: polygon(29% 1%, 100% 0, 100% 100%, 19% 100%);
           clip-path: polygon(29% 1%, 100% 0, 100% 100%, 19% 100%);
 }
